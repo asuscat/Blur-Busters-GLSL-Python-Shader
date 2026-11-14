@@ -2,6 +2,7 @@
 
 # INSTRUCTIONS, PLEASE READ!!!: PYTHON REQUIREMENTS: INSTALL THEM USING "python -m pip install numpy psutil pygame moderngl windows-capture pywin32"
 # CONFIGURATION: hold Windows key and then while holding the windows key press I, or search up settings... AFTER THAT, once your in settings, go to Display -> Graphics -> Advanced graphics settings and DISABLE the following "Hardware-accelerated GPU scheduling" After doing this, restart your computer
+# Then go back into settings Display -> Advanced display, and click on choose a higher refresh rate, and turn off "Dynamic Refresh rate" 
 # go to https://github.com/blurbusters/crt-beam-simulator/blob/main/crt-simulator.glsl and click the download button, then rename the downloaded crt-simulator.glsl file to "shader.glsl" and put it in the same folder that you are running this python script (BFI.py) from
 # Then set splitscreen is set to 0, EXAMPLE: set #define SPLITSCREEN     0 
 # END OF EXAMPLE
@@ -9,6 +10,7 @@
 # END OF EXAMPLE
 # Then lastly, make sure you configure #define FRAMES_PER_HZ and #define GAMMA and #define GAIN_VS_BLUR and #define LCD_ANTI_RETENTION
 # Finally, you can now configure the GLSL shader however you like!
+# PRO TIP: you might want to consider enabling Vsync in the nvidia control panel or whatever your GPU/iGPU uses
 
 # -*- coding: utf-8 -*-
 """
