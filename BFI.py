@@ -11,7 +11,7 @@
 
 # -*- coding: utf-8 -*-
 """
-Ultimate Rolling Scan & Global BFI Motion Clarity Engine (File-Backed Sanitizer Edition)
+Rolling Scan & Global BFI Motion Clarity Engine
 ======================================================================================
 """
 import os
