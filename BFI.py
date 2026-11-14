@@ -7,6 +7,7 @@
 # END OF EXAMPLE
 # Then make sure motion_speed is set to 0.0 EXAMPLE: #define MOTION_SPEED    0.0
 # END OF EXAMPLE
+# Then lastly, make sure you configure #define FRAMES_PER_HZ and #define GAMMA and #define GAIN_VS_BLUR and #define LCD_ANTI_RETENTION
 # Finally, you can now configure the GLSL shader however you like!
 
 # -*- coding: utf-8 -*-
